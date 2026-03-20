@@ -117,3 +117,7 @@ select:focus {
   color: #8e8e93;
   margin: 10px 0;
 }
+.icon {
+  color: #8e8e93; 
+  margin-right: 6px;
+}
