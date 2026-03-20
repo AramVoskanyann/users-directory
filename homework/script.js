@@ -40,12 +40,12 @@ function renderUsers(users) {
     card.className = "card";
 
     card.innerHTML = `
-      <h3>👤 ${user.name}</h3>
-      <p>📧 ${user.email}</p>
-      <p>📞 ${user.phone}</p>
-      <p>🌐 ${user.website}</p>
-      <p>🏢 ${user.company.name}</p>
-    `;
+  <h3><span class="icon">🧑</span> ${user.name}</h3>
+  <p><span class="icon">✉️</span> ${user.email}</p>
+  <p><span class="icon">📞</span> ${user.phone}</p>
+  <p><span class="icon">🔗</span> ${user.website}</p>
+  <p><span class="icon">💼</span> ${user.company.name}</p>
+`;
 
     container.appendChild(card);
   });
